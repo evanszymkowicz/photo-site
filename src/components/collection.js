@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./collection.scss";
 import { CollectionCategories } from "../collection-categories/collection-categories";
 import { CollectionGallery } from "../collection-gallery/collection-galery";
 import { ButtonWithOutBackground } from "../button/button";
