@@ -1,6 +1,7 @@
-import iconSet from "../../assets/selection.json";
-import IcomoonReact from "icomoon-react";
-import React from "react";
+import IcomoonReact from 'icomoon-react';
+import React from 'react';
+import iconSet from '../assets/icons.json';
+import '../scss/header.scss';
 
 export const Header = () => (
   <header className="header">
@@ -35,15 +36,15 @@ export const Header = () => (
               iconSet={iconSet}
               color="#ffffff"
               size={25}
-              icon="vk"
+              icon="youtube"
             />
           </li>
         </ul>
       </div>
     </div>
     <div className="header__text">
-      <h1 className="header__text--title">John Doe</h1>
-      <h2 className="header__text--subtitle">Photographer</h2>
+      <h1 className="header__text__title">John Doe</h1>
+      <h2 className="header__text__subtitle">Photographer</h2>
     </div>
     <IcomoonReact
       iconSet={iconSet}

@@ -1,0 +1,46 @@
+.landing__contact {
+  text-align: center;
+  padding: 2.2rem 0;
+  background-size: cover !important;
+  min-height: 400px;
+
+  @media screen and (max-width: 768px) {
+    background-position: center;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 5px;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 4rem auto 1rem auto;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      max-width: 90%;
+    }
+      &--left {
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 768px) {
+          align-items: left;
+        }
+      }
+    &--right {
+    }
+  }
+}

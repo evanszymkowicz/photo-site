@@ -1,10 +1,10 @@
-import React from "react";
-import { Header } from "./components/header/header";
-import Collection from "./components/collection/collection";
-import { LandingAboutMe } from "./components/landing-aboutme/landing-aboutme";
-import { LandingContact } from "./components/landing-contact/landing-contact";
+import React from 'react';
+import { Header } from './components/header';
+import { LandingAboutMe } from './components/landing-about';
+import { LandingContact } from './components/landing-contact';
+import Collection from './components/collection';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   return (

@@ -1,0 +1,20 @@
+.input {
+  padding: 0.8rem;
+  margin-right: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffffff;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+
+  &.textarea {
+    margin-top: 1rem;
+    margin-right: 0px;
+    width: 100%;
+    min-height: 100px;
+  }
+
+  &::placeholder {
+    color: #ffffff;
+  }
+}

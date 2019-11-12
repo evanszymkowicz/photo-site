@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-import { CustomInput } from "../custom-input/custom-input";
-import { ButtonWithOutBackground } from "../button/button";
+import React, { Component } from 'react';
+import { CustomInput } from './input';
+import { ButtonWithoutBackground } from './button';
+import '../scss/contact.scss';
 
 class Contact extends Component {
   constructor() {
@@ -15,7 +16,7 @@ class Contact extends Component {
           <CustomInput name="email" type="email" placeholder="Email" required />
         </div>
         <CustomInput name="message" type="textarea" placeholder="Message" required />
-        <ButtonWithOutBackground white>Submit</ButtonWithOutBackground>
+        <ButtonWithoutBackground white>Submit</ButtonWithoutBackground>
       </div>
     );
   }

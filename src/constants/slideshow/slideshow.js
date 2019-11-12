@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Slide from "./Slide";
-import Dots from "./Dots";
+import Slide from "./slide";
+import Dots from "./dots";
+import "../../scss/slideshow.scss";
 
 const s = {
   container: "fullW fullH rel overflowH",

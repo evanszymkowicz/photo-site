@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .custom-input:nth-last-child(1) {
+    margin-right: 0px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 1rem;
+    }
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
+}

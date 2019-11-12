@@ -1,0 +1,25 @@
+.icon-text {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+
+  &-title {
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+
+  &-content {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+  }
+}

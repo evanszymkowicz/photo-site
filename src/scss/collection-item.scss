@@ -1,0 +1,119 @@
+.collection__gallery {
+  &__item {
+    display: block;
+    position: relative;
+    min-height: 200px;
+    height: 100%;
+
+    &:nth-child(1) {
+      grid-row-start: large-1;
+      grid-row-end: large-1;
+    }
+
+    &:nth-child(2) {
+      grid-row-start: large-2;
+      grid-row-end: large-2;
+    }
+
+    &:nth-child(3) {
+      grid-row-start: small-1;
+      grid-row-end: small-1;
+    }
+
+    &:nth-child(4) {
+      grid-row-start: small-2;
+      grid-row-end: small-2;
+    }
+
+    &:nth-child(5) {
+      grid-row-start: large-4;
+      grid-row-end: large-4;
+    }
+
+    &:nth-child(6) {
+      grid-row-start: large-3;
+      grid-row-end: large-3;
+    }
+
+    &:nth-child(7) {
+      grid-row-start: large-5;
+      grid-row-end: large-5;
+    }
+
+    &:nth-child(8) {
+      grid-row-start: small-3;
+      grid-row-end: small-3;
+    }
+
+    &:nth-child(9) {
+      grid-row-start: large-6;
+      grid-row-end: large-6;
+    }
+
+    &:hover {
+      .collection__gallery__description {
+        background: linear-gradient(
+          0deg,
+          rgba(138, 133, 133, 0.6),
+          rgba(138, 133, 133, 0.6)
+        );
+      }
+
+      .collection__gallery__description {
+        display: flex;
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    transition: 0.5s;
+  }
+
+  &__description {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    color: #ffffff;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__title {
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5rem;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      bottom: -10%;
+      content: "";
+      height: 10px;
+      width: 100%;
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+
+  &__subcontent {
+    font-size: 0.8rem;
+    margin: 0 2rem;
+  }
+
+  .button {
+    position: absolute;
+    bottom: 10%;
+  }
+}

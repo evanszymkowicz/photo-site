@@ -1,0 +1,22 @@
+.collection__categories {
+  &__option {
+    color: #8a8585;
+    display: inline-block;
+    margin-top: 2rem;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.5s ease;
+    margin-right: 2.4rem;
+    border-bottom: 2px solid transparent;
+
+    &:nth-last-child(1) {
+      margin-right: 0px;
+    }
+
+    &:hover {
+      border-bottom: 2px solid #8a8585;
+    }
+  }
+}

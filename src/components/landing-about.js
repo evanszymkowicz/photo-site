@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
+import '../scss/landing-about.scss';
 
 export const LandingAboutMe = () => (
   <div
     className="aboutme"
     style={
       {
-        //background: `url(${"https://lh3.googleusercontent.com/8DI4KOfR0H4WiT7pyfmef838MNj1FWGHIdr5ArBFlicXIv_suqFcPjyCqL75H_1UQs6GJsjAW_a71akE7pCSmM4U=w1200-h800-l90"})`
+        // background: `url(${"https://lh3.googleusercontent.com/8DI4KOfR0H4WiT7pyfmef838MNj1FWGHIdr5ArBFlicXIv_suqFcPjyCqL75H_1UQs6GJsjAW_a71akE7pCSmM4U=w1200-h800-l90"})`
       }
     }
   >

@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
+import '../scss/collection-categories.scss';
 
-export const Categories = ({ categories, handleCategorieClick }) => (
+export const CollectionCategories = ({ categories, handleCategoryClick }) => (
   <div>
     <ul className="collection__categories">
-      {categories.map(category => (
-        <li key={category} className="categories__option" onClick={() => handleCategorieClick(category)} >
+      {categories.map((category) => (
+        <li key={category} className="collection__categories__option" onClick={() => handleCategoryClick(category)}>
           {category}
         </li>
       ))}
