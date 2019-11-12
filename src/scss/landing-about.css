@@ -1,0 +1,24 @@
+.aboutme {
+  margin-top: 1.5rem;
+  padding: 2rem 3rem;
+  background-size: cover;
+  text-align: center;
+  background: linear-gradient(180deg, white, rgba(138, 133, 133, 0.3)); }
+  .aboutme__title {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: "Roboto Condensed", sans-serif;
+    letter-spacing: 5px; }
+  .aboutme__subtitle {
+    text-transform: uppercase;
+    color: #8a8585;
+    font-weight: 600; }
+  .aboutme__content {
+    margin: 2.2rem 9rem; }
+    .aboutme__content br {
+      display: block;
+      margin: 1rem 0;
+      content: ""; }
+    @media screen and (max-width: 768px) {
+      .aboutme__content {
+        margin: 1.5rem auto; } }

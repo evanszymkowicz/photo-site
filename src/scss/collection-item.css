@@ -1,0 +1,81 @@
+.collection__gallery__item {
+  display: block;
+  position: relative;
+  min-height: 200px;
+  height: 100%; }
+  .collection__gallery__item:nth-child(1) {
+    grid-row-start: large-1;
+    grid-row-end: large-1; }
+  .collection__gallery__item:nth-child(2) {
+    grid-row-start: large-2;
+    grid-row-end: large-2; }
+  .collection__gallery__item:nth-child(3) {
+    grid-row-start: small-1;
+    grid-row-end: small-1; }
+  .collection__gallery__item:nth-child(4) {
+    grid-row-start: small-2;
+    grid-row-end: small-2; }
+  .collection__gallery__item:nth-child(5) {
+    grid-row-start: large-4;
+    grid-row-end: large-4; }
+  .collection__gallery__item:nth-child(6) {
+    grid-row-start: large-3;
+    grid-row-end: large-3; }
+  .collection__gallery__item:nth-child(7) {
+    grid-row-start: large-5;
+    grid-row-end: large-5; }
+  .collection__gallery__item:nth-child(8) {
+    grid-row-start: small-3;
+    grid-row-end: small-3; }
+  .collection__gallery__item:nth-child(9) {
+    grid-row-start: large-6;
+    grid-row-end: large-6; }
+  .collection__gallery__item:hover .collection__gallery__description {
+    background: linear-gradient(0deg, rgba(138, 133, 133, 0.6), rgba(138, 133, 133, 0.6)); }
+  .collection__gallery__item:hover .collection__gallery__description {
+    display: flex; }
+
+.collection__gallery__img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+  transition: 0.5s; }
+
+.collection__gallery__description {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  color: #ffffff;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+.collection__gallery__title {
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  position: relative; }
+  .collection__gallery__title:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    bottom: -10%;
+    content: "";
+    height: 10px;
+    width: 100%;
+    border-bottom: 1px solid #ffffff; }
+
+.collection__gallery__subcontent {
+  font-size: 0.8rem;
+  margin: 0 2rem; }
+
+.collection__gallery .button {
+  position: absolute;
+  bottom: 10%; }

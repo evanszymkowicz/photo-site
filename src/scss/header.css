@@ -1,0 +1,64 @@
+.header {
+  background: linear-gradient(0deg, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)), url("https://i.imgur.com/PTOejTZ.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.2rem 2rem;
+    margin: 0 10rem; }
+    @media screen and (max-width: 960px) {
+      .header__top {
+        margin: 0; } }
+    @media screen and (max-width: 620px) {
+      .header__top {
+        flex-direction: column;
+        justify-content: center; } }
+  .header__arrow {
+    position: absolute;
+    bottom: 5%; }
+  .header__nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold; }
+    @media screen and (max-width: 620px) {
+      .header__nav ul {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 1rem; } }
+  .header__option {
+    display: block;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    letter-spacing: 2px; }
+    .header__option:nth-last-child(1) {
+      margin-right: 0; }
+  .header__text {
+    text-align: center; }
+  .header__text__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5.5rem;
+    letter-spacing: 15px;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif; }
+    @media screen and (max-width: 620px) {
+      .header__text__title {
+        font-size: 2rem; } }
+  .header__text__subtitle {
+    text-transform: uppercase;
+    font-weight: 300; }
+    @media screen and (max-width: 620px) {
+      .header__text__subtitle {
+        font-size: 1rem; } }

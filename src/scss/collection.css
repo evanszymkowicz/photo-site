@@ -1,0 +1,17 @@
+.collection__container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding: 5rem 10px;
+  text-align: center; }
+
+.collection__subtitle {
+  text-transform: uppercase;
+  color: #8a8585;
+  font-weight: 600; }
+
+.collection__title {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 5px; }
