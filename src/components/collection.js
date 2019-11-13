@@ -62,7 +62,7 @@ class Collection extends Component {
             "https://i.imgur.com/rM0HVOY.jpg"
         },
         {
-          title: "Beach",
+          title: "Different Beach",
           description: "lorem ispduj euebnjbn  bsdjffsjfnjsd ",
           photo:
             "https://lh3.googleusercontent.com/U8jcpuxDlL7KzEGzbCh8S4EIRGgDUPQpjhsgYXcH_o-zaCwj2p2KQb2r8SduL0YU-2APdgBsAft372mr02hdPDcE=w952-h800-l90"
