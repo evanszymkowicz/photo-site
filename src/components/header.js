@@ -1,7 +1,7 @@
 import IcomoonReact from 'icomoon-react';
 import React from 'react';
 import iconSet from '../assets/icons.json';
-import '../styles/_header.scss';
+import '../styles/scss/header.scss';
 
 export const Header = () => (
   <header className="header">

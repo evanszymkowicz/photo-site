@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { CollectionCategories } from "./collection-categories";
 import { CollectionGallery } from "./collection-gallery";
 import { ButtonWithoutBackground } from "./button";
-import "../styles/_collection.scss"
+import "../styles/scss/collection.scss"
 
 class Collection extends Component {
   constructor() {

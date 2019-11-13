@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/_input.scss';
+import '../styles/scss/input.scss';
 
 export const CustomInput = ({ type, name, ...otherProps }) => {
   if (type === 'textarea') {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/_collection-categories.scss';
+import '../styles/scss/collection-categories.scss';
 
 export const CollectionCategories = ({ categories, handleCategoryClick }) => (
   <div>

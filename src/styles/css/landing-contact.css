@@ -1,0 +1,47 @@
+.landing__contact {
+  text-align: center;
+  padding: 2.2rem 0;
+  background-size: cover !important;
+  min-height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .landing__contact {
+    background-position: center;
+  }
+}
+.landing__contact__title {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+.landing__contact__subtitle {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+}
+.landing__contact__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 50%;
+  margin: 4rem auto 1rem auto;
+}
+@media screen and (max-width: 768px) {
+  .landing__contact__content {
+    flex-direction: column;
+    max-width: 90%;
+  }
+}
+.landing__contact__content--left {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .landing__contact__content--left {
+    align-items: left;
+  }
+}
+
+/*# sourceMappingURL=landing-contact.css.map */

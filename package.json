@@ -3,14 +3,16 @@
   "version": "2.0.0",
   "private": true,
   "dependencies": {
+    "fibers": "^4.0.2",
     "icomoon-react": "^1.0.0",
-    "node-sass": "^4.13.0",
-    "react": "^16.11.0",
+    "react": "16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "sass": "^1.23.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "sass": "sass --watch src/styles/scss:src/styles/css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -31,8 +33,10 @@
     ]
   },
   "description": "Portfolio website for a photographer",
-  "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evanszymkowicz/photo-site.git"

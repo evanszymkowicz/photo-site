@@ -1,7 +1,7 @@
 import React from 'react';
 import { CollectionItem } from './collection-item';
 
-import '../styles/_collection-gallery.scss';
+import '../styles/scss/collection-gallery.scss';
 
 export const CollectionGallery = ({ photos }) => (
   <div className="collection__gallery">

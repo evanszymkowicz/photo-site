@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/_landing-about.scss';
+import '../styles/scss/landing-about.scss';
 
 export const LandingAboutMe = () => (
   <div

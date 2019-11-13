@@ -1,7 +1,7 @@
 import React from 'react';
 import IcomoonReact from 'icomoon-react';
 import iconSet from '../assets/icons.json';
-import '../styles/_button.scss';
+import '../styles/scss/button.scss';
 
 export const ButtonWithoutBorder = ({ children, dark, white }) => (
   <button className={`button button-no-border ${dark ? null : 'button-white'}`}>
