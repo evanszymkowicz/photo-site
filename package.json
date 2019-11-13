@@ -12,7 +12,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "sass": "sass --watch src/styles/scss:src/styles/css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,8 +33,7 @@
   },
   "description": "Portfolio website for a photographer",
   "devDependencies": {
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0"
+    "node-sass": "^4.13.0"
   },
   "repository": {
     "type": "git",

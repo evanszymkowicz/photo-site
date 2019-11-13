@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #1b1a1a;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  color: #8a8585;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #09d3ac;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
