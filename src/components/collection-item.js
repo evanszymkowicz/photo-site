@@ -1,6 +1,6 @@
 import React from 'react';
 import { ButtonWithoutBorder } from './button';
-import '../scss/collection-item.scss';
+import '../styles/_collection-item.scss';
 
 export const CollectionItem = ({ item: { photo, title, description } }) => (
   <div className="collection__gallery__item">

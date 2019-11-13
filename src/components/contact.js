@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { CustomInput } from './input';
 import { ButtonWithoutBackground } from './button';
-import '../scss/contact.scss';
+import '../styles/_contact.scss';
 
 class Contact extends Component {
   constructor() {

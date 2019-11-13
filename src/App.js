@@ -4,7 +4,7 @@ import { LandingAboutMe } from './components/landing-about';
 import { LandingContact } from './components/landing-contact';
 import Collection from './components/collection';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
